@@ -17,5 +17,6 @@ public class FirstMod implements ModInitializer {
 		// Proceed with mild caution.
 
 		LOGGER.info("Hello Fabric world!");
+		System.out.println("Does it work?");
 	}
 }

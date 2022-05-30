@@ -3,10 +3,9 @@
   "minVersion": "0.8",
   "package": "net.bar_help.barhelp.mixin",
   "compatibilityLevel": "JAVA_17",
-  "mixins": [
-  ],
   "client": [
-    "ExampleMixin"
+    "ExampleMixin",
+    "DamageMixin"
   ],
   "injectors": {
     "defaultRequire": 1
