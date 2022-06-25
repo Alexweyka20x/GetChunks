@@ -1,29 +1,27 @@
 {
   "schemaVersion": 1,
-  "id": "barhelp",
+  "id": "getchunks",
   "version": "${version}",
 
-  "name": "Baritone Help Mod",
-  "description": "Helps Baritone",
+  "name": "getChunks",
+  "description": "downloads chunks in your world",
   "authors": [
     "Alexeyka20x, Alexwelldone, sinn40"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "sources": "https://github.com/Alexweyka20x/GetChunks"
   },
 
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/getChunks/icon.png",
 
   "environment": "client",
   "entrypoints": {
     "main": [
-      "net.bar_help.barhelp.FirstMod"
+      "net.getchunks.mainClass"
     ]
   },
   "mixins": [
-    "barhelp.mixins.json"
+    "getchunks.mixins.json"
   ],
 
   "depends": {
