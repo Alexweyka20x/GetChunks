@@ -16,7 +16,7 @@ import net.minecraft.util.math.BlockPos;
 public class getBlocksCommand {
     public static void register(CommandDispatcher<ServerCommandSource> dispatcher, boolean dedicated) {
 
-        dispatcher.register(CommandManager.literal("getblock")
+        dispatcher.register(CommandManager.literal("getblocks")
                 .then(CommandManager.argument("location", BlockPosArgumentType.blockPos())
                         .then(CommandManager.argument("dist", IntegerArgumentType.integer())
                                 .executes(getBlocksCommand::execute))));
