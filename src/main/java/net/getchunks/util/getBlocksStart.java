@@ -44,7 +44,7 @@ public class getBlocksStart {
             else {
                 String[] pos = reader.readLine().split(" ");
                 int x = Integer.parseInt(pos[0]), y = Integer.parseInt(pos[1]), z = Integer.parseInt(pos[2]);
-                String fluid = world.getFluidState(new BlockPos(x, y, x)).getBlockState().getBlock().getName().getString();
+                String fluid = world.getFluidState(new BlockPos(x, y, z)).getBlockState().getBlock().getName().getString();
                 writer.writeLine(fluid);
             }
 
