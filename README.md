@@ -9,7 +9,7 @@ First line contains count of blocks <br>
 Each new line contains position of block
 
 Example of file: <br>
-```mermaid
+```text
 3
 100 32 100
 134 50 104
@@ -19,7 +19,7 @@ Example of file: <br>
 Result will be in ```getblocks/<filename>-result.txt```
 
 Example of result: <br>
-```mermaid
+```text
 stone
 dirt
 air
