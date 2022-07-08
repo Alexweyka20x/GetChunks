@@ -1,5 +1,9 @@
 # Get Chunks Mod
 
+##Tips
+
+You can stop your command using ```/get stop``` command
+
 ## How to use
 
 Create new world and write ```/get blocks <filename>``` command<br>
@@ -24,7 +28,3 @@ stone
 dirt
 air
 ```
-
-##Tips
-
-You can stop your command using ```/get stop``` command
