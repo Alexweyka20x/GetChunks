@@ -25,6 +25,6 @@ dirt
 air
 ```
 
-##Tips
+## Tips
 
 You can stop your command using ```/get stop``` command
